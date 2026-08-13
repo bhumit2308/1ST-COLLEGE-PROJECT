@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
        ============================================================ */
     const subTypeEl = document.getElementById('typewriter-subtitle');
     if (subTypeEl) {
-        const text = "Full-Stack Developer & Co-founder of Pixel Forge Agency.";
+        const text = "Full-Stack Developer & AI Systems Engineer.";
         let index = 0;
 
         // Create typing cursor element
@@ -414,11 +414,11 @@ AI/ML:     NLP pipelines, Gemini API, Claude API, Wav2Lip`;
                     response = `Shipped Projects:
   - <b>DubVibe Pro</b>       : Automated video dubbing pipeline (FastAPI/Wav2Lip)
   - <b>SkillBridge AI</b>    : Career prep simulator (Next.js/Claude Sonnet)
-  - <b>Pixel Forge Agency</b> : Client portal & platform (React/Node.js)
+  - <b>Vocaberry</b>         : AI visual vocabulary mnemonic app (Node/Firebase)
   - <b>Core Gym Platform</b>  : High-conversion frontend (HTML/CSS/JS)`;
                 } else if (cmd === 'status') {
                     response = `Active Status:
-  - Co-founding Pixel Forge Agency.
+  - Building AI speech pipelines & Next.js applications.
   - Building AI integrations for global clients.
   - Learning advanced computer vision models.`;
                 } else if (cmd === 'clear') {
