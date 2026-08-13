@@ -1039,6 +1039,8 @@ AI/ML:     NLP pipelines, Gemini API, Claude API, Wav2Lip`;
                     link.href = 'reference/Bhumit_Vasava_Resume.pdf';
                     link.download = 'Bhumit_Vasava_Resume.pdf';
                     link.click();
+                } else if (action === 'open-x') {
+                    window.open('https://x.com/BHUMITxyz', '_blank', 'noopener,noreferrer');
                 } else if (action === 'toggle-cli-mode') {
                     const toggleSwitch = document.getElementById('uiverseThemeSwitch');
                     if (toggleSwitch) toggleSwitch.click();
