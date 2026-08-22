@@ -4094,7 +4094,7 @@ html.pdf-modal-open #cursorRing {
   filter: drop-shadow(0 0 8px rgba(217, 119, 88, 0.6));
   animation: dataFlowFast 1.5s linear infinite;
 }
-.tree-line.line-ms.active {
+.tree-line.line-forage.active {
   stroke: #00a4ef;
   stroke-width: 3;
   opacity: 1;
@@ -4108,7 +4108,7 @@ html.pdf-modal-open #cursorRing {
   filter: drop-shadow(0 0 8px rgba(0, 188, 235, 0.6));
   animation: dataFlowFast 1.5s linear infinite;
 }
-.tree-line.line-google.active {
+.tree-line.line-mcp.active {
   stroke: #ea4335;
   stroke-width: 3;
   opacity: 1;
@@ -4187,7 +4187,7 @@ html.pdf-modal-open #cursorRing {
   color: #d97758;
   box-shadow: 0 0 24px rgba(217, 119, 88, 0.4);
 }
-.node-ms:hover .node-icon, .node-ms.active .node-icon {
+.node-forage:hover .node-icon, .node-forage.active .node-icon {
   border-color: #00a4ef;
   color: #00a4ef;
   box-shadow: 0 0 24px rgba(0, 164, 239, 0.4);
@@ -4197,7 +4197,7 @@ html.pdf-modal-open #cursorRing {
   color: #00bceb;
   box-shadow: 0 0 24px rgba(0, 188, 235, 0.4);
 }
-.node-google:hover .node-icon, .node-google.active .node-icon {
+.node-mcp:hover .node-icon, .node-mcp.active .node-icon {
   border-color: #ea4335;
   color: #ea4335;
   box-shadow: 0 0 24px rgba(234, 67, 53, 0.4);
@@ -4245,20 +4245,20 @@ html.pdf-modal-open #cursorRing {
 /* Positioning */
 .node-core { top: 50%; left: 50%; }
 .node-anthropic { top: 25%; left: 20%; }
-.node-ms { top: 75%; left: 20%; }
+.node-forage { top: 75%; left: 20%; }
 .node-cisco { top: 25%; left: 80%; }
-.node-google { top: 75%; left: 80%; }
+.node-mcp { top: 75%; left: 80%; }
 
 @media (max-width: 768px) {
   .tech-tree-container { height: 600px; }
   .node-anthropic { top: 20%; left: 28%; }
   .node-cisco { top: 20%; left: 72%; }
-  .node-ms { top: 80%; left: 28%; }
-  .node-google { top: 80%; left: 72%; }
+  .node-forage { top: 80%; left: 28%; }
+  .node-mcp { top: 80%; left: 72%; }
   
   .line-anthropic { x2: 28%; y2: 20%; }
   .line-cisco { x2: 72%; y2: 20%; }
-  .line-ms { x2: 28%; y2: 80%; }
-  .line-google { x2: 72%; y2: 80%; }
+  .line-forage { x2: 28%; y2: 80%; }
+  .line-mcp { x2: 72%; y2: 80%; }
 }
 
