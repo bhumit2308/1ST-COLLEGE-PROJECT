@@ -1085,7 +1085,7 @@ AI/ML:     NLP pipelines, Gemini API, Claude API, Wav2Lip`;
             pipeline: ['1. Target Word Selection', '2. Mnemonic Generation Algorithm', '3. Flashcard Spaced Repetition', '4. Progress Streak Tracking'],
             problem: 'Traditional vocabulary learning relies on boring rote repetition.',
             solution: 'Created an associative AI visual mnemonic app boosting retention rates by 65%.',
-            links: { demo: 'https://github.com/BOOM-08/1ST-COLLEGE-PROJECT', code: 'https://github.com/BOOM-08/1ST-COLLEGE-PROJECT' }
+            links: { demo: 'https://github.com/bhumit2308/1ST-COLLEGE-PROJECT', code: 'https://github.com/bhumit2308/1ST-COLLEGE-PROJECT' }
         },
         'coregym': {
             category: 'HIGH-CONVERSION WEB APP',
